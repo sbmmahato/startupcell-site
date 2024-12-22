@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import TeamMemberCard from '../components/TeamMemberCard';
 import sandeep_sir from '../assets/sandeep_sir.jpg'
 import rj from '../assets/rj.jpg'

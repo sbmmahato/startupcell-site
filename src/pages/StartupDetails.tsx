@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import parse from 'html-react-parser';
 import { useParams } from 'react-router-dom';
 import ImageSlider from '../components/ImageSlider';
@@ -13,8 +13,8 @@ import q21 from '../assets/21.jpg';
 import q22 from '../assets/22.jpg';
 import q23 from '../assets/23.jpg';
 import q24 from '../assets/24.jpg';
-import Registration from './Registration';
-import Registration2 from './Registration2';
+// import Registration from './Registration';
+// import Registration2 from './Registration2';
 
 
 
@@ -62,7 +62,8 @@ const StartupDetails = () => {
       ]
     }
   };
-
+  
+//@ts-ignore
   const startup = startupDetails[id];
 
   if (!startup) {

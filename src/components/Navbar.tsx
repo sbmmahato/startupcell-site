@@ -193,7 +193,7 @@ const Navbar = () => {
   };
 
   // Scroll to section or navigate to home
-  const scrollToSection = (path) => {
+  const scrollToSection = (path:any) => {
     if (path.startsWith('#')) {
       // If already on the homepage, scroll to the section
       if (location.pathname === '/') {

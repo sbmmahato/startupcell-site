@@ -1,6 +1,6 @@
 // import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import x from '../assets/hero.jpg'
+// import x from '../assets/hero.jpg'
 import HeroImageSlider from './HeroImageSlider';
 
 

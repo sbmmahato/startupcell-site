@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import q from '../assets/hero.jpg';
 import c from '../assets/17.jpg'
 import SBlogo from '../assets/SBLogo.jpg';
@@ -8,7 +8,7 @@ import SBlogo2 from '../assets/SBLogo2.jpg';
 const HeroImageSlider = () => {
   // Array of images
   const images = [
-    SBlogo2,SBlogo,q,c
+    q,SBlogo2,c,SBlogo
   ];
 
   // State to track the current image index

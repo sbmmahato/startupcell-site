@@ -90,7 +90,7 @@ const StartupDetails = () => {
 
         <div className="prose max-w-none mb-12">
           {/* <h2 className="text-3xl font-bold mb-6">  Event Details</h2> */}
-          {  id == "1" ? 'Event Details' : <h2 className="text-3xl font-bold mb-6">  Submit Your Ideas at IIIT Bhagalpur</h2> }
+          {  id == "1" ? <h2 className="text-3xl font-bold mb-6">   Event Details</h2> : <h2 className="text-3xl font-bold mb-6">  Submit Your Ideas at IIIT Bhagalpur</h2> }
           <p className="text-lg text-gray-700">{parse(startup.fullDescription)}</p>
         </div>
 

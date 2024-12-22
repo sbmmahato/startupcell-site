@@ -128,10 +128,34 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        {/* <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} IIIT Bhagalpur Startup Cell. All rights reserved.</p>
           <p>Created by Subham Mahato and Sunny Raj</p>
-        </div>
+        </div> */}
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+  <p>&copy; {new Date().getFullYear()} IIIT Bhagalpur Startup Cell. All rights reserved.</p>
+  <p>
+    Created by &nbsp;  
+    <a 
+      href="https://www.linkedin.com/in/subham-mahato-b26879257/" 
+      className="text-gray-400 hover:text-white" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      <b>Subham Mahato</b> 
+    </a> 
+    &nbsp; and  &nbsp;
+    <a 
+      href="https://www.linkedin.com/in/sunnyrajendraraj/" 
+      className="text-gray-400 hover:text-white" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      <b>Sunny Raj</b>
+    </a>
+  </p>
+</div>
+
       </div>
     </footer>
   );

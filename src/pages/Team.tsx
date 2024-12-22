@@ -11,7 +11,7 @@ const Team = () => {
       role: "Faculty Incharge",
       image: sandeep_sir,
       email: "srp@iitp.ac.in",
-      linkedin: "https://linkedin.com"
+      linkedin: "https://www.linkedin.com/in/sandeep-raj-a8b93083/"
     },
     {
       name: "Sunny Raj",

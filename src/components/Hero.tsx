@@ -18,15 +18,15 @@ const Hero = () => {
               fontFamily: "'Anton', sans-serif",
               letterSpacing: '1px',
             }}>
-              INSPIRING THE
+              IGNITING INNOVATION,
               <br />
-              <span className="text-blue-500">ENTREPRENEUR</span>
+              <span className="text-blue-500">EMPOWERING </span>
               <br />
-              IN YOU
+              ENTREPRENEURS
             </h1>
             
             <p className="text-gray-300 text-lg max-w-xl leading-relaxed">
-              Encapsulates the essence of sparking ambition, innovation, and drive within individuals to pursue their startup dreams. It signifies the beginning of a journey filled with passion, determination, and creativity.
+            Fuels innovation and empowers dreamers to transform ideas into impactful ventures. It’s where passion meets action, igniting a journey of creativity and entrepreneurial success.
             </p>
             
             {/* <button  className="inline-flex items-center px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition group">

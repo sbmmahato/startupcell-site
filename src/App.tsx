@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import StartupDetails from './pages/StartupDetails';
+import JoinUs from './pages/JoinUs';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/team" element={<Team />} />
             <Route path="/startup/:id" element={<StartupDetails />} />
+            <Route path="/joinus" element={<JoinUs />} />
           </Routes>
         </main>
         <Footer />

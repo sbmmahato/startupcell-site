@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const navLinks = [
     { path: '/', label: 'Home' },
-    { path: '#startups', label: 'Startups' },
+    { path: '#startups', label: 'Events' },
     { path: '/team', label: 'Team' },
     { path: '#about', label: 'About' },
     { path: '#faq', label: 'FAQ' },
@@ -47,7 +47,7 @@ const Navbar = () => {
             {/* <Rocket className="h-8 w-8 text-blue-600 transform group-hover:rotate-12 transition-transform" /> */}
             <img src={startup_logo} style={{width:'58px'}} />
             <span className="font-bold text-m bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              IIIT-BH Startup Cell
+              Startup Cell IIIT-BH 
             </span>
           </Link>
 

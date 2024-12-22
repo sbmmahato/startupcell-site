@@ -1,86 +1,7 @@
-    // import React from 'react'
-
-    // const Registration = () => {
-    // return (
-    //     <div className="bg-white rounded-lg shadow-lg p-8">
-    //         <h2 className="text-2xl font-bold mb-6">Register Interest</h2>
-    //         <form className="space-y-6">
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Name</label>
-    //             <input 
-    //                 type="text" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter your full name"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Batch</label>
-    //             <input 
-    //                 type="text" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter your Batch"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Roll Number</label>
-    //             <input 
-    //                 type="text" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter your Roll Number"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Phone Number</label>
-    //             <input 
-    //                 type="text" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter your Phone Number"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Email</label>
-    //             <input 
-    //                 type="email" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter your email address"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Event</label>
-    //             <input 
-    //                 type="text" 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500" 
-    //                 placeholder="Enter  the event you are interested in"
-    //             />
-    //             </div>
-    //             <div>
-    //             <label className="block text-gray-700 mb-2">Why are you interested in this startup?</label>
-    //             <textarea 
-    //                 rows={4} 
-    //                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
-    //                 placeholder="Tell us why you're interested and how you'd like to contribute..."
-    //             />
-    //             </div>
-    //             <button 
-    //             type="submit" 
-    //             className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-[1.02]"
-    //             >
-    //             Submit Application
-    //             </button>
-    //         </form>
-    //         </div>
-    // )
-    // }
-
-    // export default Registration
-
-
-
-
-    import React, { useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Registration = () => {
+const JoinUs = () => {
   const [formData, setFormData] = useState({
     name: '',
     batch: '',
@@ -131,7 +52,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8">
+    <div className="bg-white rounded-lg shadow-lg py-16 p-20">
       <h2 className="text-2xl font-bold mb-6">Join Us</h2>
       {successMessage && <p className="text-green-500">{successMessage}</p>}
       {errorMessage && <p className="text-red-500">{errorMessage}</p>}
@@ -231,4 +152,4 @@ const Registration = () => {
   );
 };
 
-export default Registration;
+export default JoinUs;

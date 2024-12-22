@@ -18,14 +18,14 @@ const Team = () => {
       role: "Student Coordinator",
       image: sunny_raj,
       email: "sunny.2201108cs@iiitbh.ac.in",
-      linkedin: "https://linkedin.com"
+      linkedin: "https://www.linkedin.com/in/sunnyrajendraraj/"
     },
     {
       name: "Rajnandani Jaiswal",
       role: "Student Coordinator",
       image: rj,
-      email: "",
-      linkedin: "https://linkedin.com"
+      email: "raj.2201172cs@iiit.bh.ac.in",
+      linkedin: "https://www.linkedin.com/in/nandani-jaiswal-b04bb5253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
   ];
 

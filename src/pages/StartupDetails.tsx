@@ -14,6 +14,7 @@ import q22 from '../assets/22.jpg';
 import q23 from '../assets/23.jpg';
 import q24 from '../assets/24.jpg';
 import Registration from './Registration';
+import Registration2 from './Registration2';
 
 
 
@@ -92,7 +93,15 @@ const StartupDetails = () => {
           <p className="text-lg text-gray-700">{parse(startup.fullDescription)}</p>
         </div>
 
-        <Registration />
+        {  id == "1" ? '' : <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf5Qqc3MdOIDidCW2xJwkbBin84-Lvf99CvoftUoWmKtGNkVg/viewform" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition group"
+            >
+              Join Us
+              {/* <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" /> */}
+            </a>}
       </div>
     </div>
   );

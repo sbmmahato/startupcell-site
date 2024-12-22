@@ -39,8 +39,8 @@ const Home = () => {
             <div>
               <p className="text-lg text-gray-700 leading-relaxed">
               At <b>Startup Cell IIIT Bhagalpur</b>, we aim to foster ambition, creativity, and innovation in
- budding entrepreneurs. With the unwavering support of the <b>Government of Bihar</b> and the
- <b>Department of Industries</b>, we empower students and aspiring innovators to transform their
+ budding entrepreneurs. With the unwavering support of the <b>Government of Bihar</b> and the 
+ <b> Department of Industries</b>, we empower students and aspiring innovators to transform their
  ideas into impactful startups.<br/><br/>
  This initiative serves as the cornerstone for aspiring entrepreneurs to embark on a
  transformative journey—one filled with passion, perseverance, and purpose. Through

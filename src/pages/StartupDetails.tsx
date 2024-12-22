@@ -89,7 +89,8 @@ const StartupDetails = () => {
         </div>
 
         <div className="prose max-w-none mb-12">
-          <h2 className="text-3xl font-bold mb-6">  Event Details</h2>
+          {/* <h2 className="text-3xl font-bold mb-6">  Event Details</h2> */}
+          {  id == "1" ? 'Event Details' : <h2 className="text-3xl font-bold mb-6">  Submit Your Ideas at IIIT Bhagalpur</h2> }
           <p className="text-lg text-gray-700">{parse(startup.fullDescription)}</p>
         </div>
 
@@ -99,7 +100,7 @@ const StartupDetails = () => {
               rel="noopener noreferrer" 
               className="inline-flex items-center px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition group"
             >
-              Join Us
+              Submit
               {/* <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" /> */}
             </a>}
       </div>
